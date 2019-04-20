@@ -1,0 +1,104 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: teal;
+}
+
+nav .brand-logo {
+  font-family: 'Caveat', cursive;
+}
+
+.nav-wrapper {
+  padding: 0 5%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.section-custom {
+  width: 100%;
+  height: 100%;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 15%;
+  }
+
+  .header-subtitle {
+    margin-top: 10%;
+    font-size: 1.3em;
+  }
+
+  .subtitle {
+    margin-top: 10%;
+    line-height: 2em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #intro .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #intro .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.btn-register {
+  width: 100%;
+  background-color: #FF5E61;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: white;
+  padding: 0 0.3em;
+  height: 0.5em;
+}
+
+.social-icon:hover {
+  color: #FF5E61;
+}
